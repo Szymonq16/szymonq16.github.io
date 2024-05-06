@@ -1,0 +1,109 @@
+body{
+    background-color: gray;
+}
+#div_main_1{
+    height: 700px;
+    width: 500px;
+    background-color: gray;
+    color: black;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: inherit;
+}
+#div_sub_1{
+    height: 100px;
+    width: 400px;
+    background-color: green;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    border: 3px solid darkgoldenrod;
+    text-align: center;
+}
+#div_sub_1:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: blue;
+    border: 3px solid red;
+    transition: 0.5s;
+}
+#div_sub_2{
+    height: 100px;
+    width: 400px;
+    background-color: darkgray;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    border: 3px solid darkred;
+    color: slategray;
+    text-align: center;
+
+}
+#div_sub_2:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: blue;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+#div_sub_3{
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    color: aqua;
+    border: 3px solid darkblue;
+    text-align: center;
+
+}
+#div_sub_3:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: blue;
+    border: 3px solid red;
+    transition: 0.5s;
+}
+#div_sub_4{
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    border: 3px solid black;
+    text-align: center;
+}
+#div_sub_4:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: blue;
+    border: 3px solid red;
+    transition: 0.5s;
+}
+#div_sub_5{
+    height: 100px;
+    width: 400px;
+    background-color: darkslategrey;
+    margin-left: 48px;
+    margin-top: 19px;
+    margin-bottom: 38px;
+    border: 3px solid darkblue;
+    color: white;
+    text-align: center;
+}
+#div_sub_5:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: blue;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
