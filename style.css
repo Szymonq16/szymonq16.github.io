@@ -37,7 +37,7 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.2,1.2);
 }
 #div_sub_2{
     height: 100px;
@@ -57,7 +57,7 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.2,1.2);
 
 }
 #div_sub_3{
@@ -78,7 +78,7 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.2,1.2);
 }
 #div_sub_4{
     height: 100px;
@@ -96,7 +96,7 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.2,1.2);
 }
 #div_sub_5{
     height: 100px;
@@ -115,7 +115,7 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.2,1.2);
 
 }
 button{
