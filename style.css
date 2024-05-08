@@ -7,8 +7,13 @@ body{
     background-color: gray;
     color: black;
     margin: auto;
+    margin-top: 50px;
     border: 2px solid white;
     box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -19,11 +24,12 @@ a{
     height: 100px;
     width: 400px;
     background-color: green;
-    margin-left: 45px;
-    margin-top: 16px;
-    margin-bottom: 35px;
     border: 3px solid darkgoldenrod;
     text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
 }
 #div_sub_1:hover{
     cursor: pointer;
@@ -31,17 +37,18 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
+    transform: scale(1.5);
 }
 #div_sub_2{
     height: 100px;
     width: 400px;
     background-color: darkgray;
-    margin-left: 45px;
-    margin-top: 16px;
-    margin-bottom: 35px;
     border: 3px solid darkred;
     color: slategray;
     text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 
 }
 #div_sub_2:hover{
@@ -50,18 +57,19 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
+    transform: scale(1.5);
 
 }
 #div_sub_3{
     height: 100px;
     width: 400px;
     background-color: yellow;
-    margin-left: 45px;
-    margin-top: 16px;
-    margin-bottom: 35px;
     color: aqua;
     border: 3px solid darkblue;
     text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 
 }
 #div_sub_3:hover{
@@ -70,16 +78,17 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
+    transform: scale(1.5);
 }
 #div_sub_4{
     height: 100px;
     width: 400px;
     background-color: white;
-    margin-left: 45px;
-    margin-top: 16px;
-    margin-bottom: 35px;
     border: 3px solid black;
     text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 #div_sub_4:hover{
     cursor: pointer;
@@ -87,17 +96,18 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
+    transform: scale(1.5);
 }
 #div_sub_5{
     height: 100px;
     width: 400px;
     background-color: darkslategrey;
-    margin-left: 48px;
-    margin-top: 19px;
-    margin-bottom: 38px;
     border: 3px solid darkblue;
     color: white;
     text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 #div_sub_5:hover{
     cursor: pointer;
@@ -105,6 +115,7 @@ a{
     background-color: blue;
     border: 3px solid red;
     transition: 0.5s;
+    transform: scale(1.5);
 
 }
 button{
